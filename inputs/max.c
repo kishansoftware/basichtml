@@ -13,7 +13,7 @@ int main()
 
         if (a[i] > a[i + 1])
         {
-            // printf("i=%d, i+1=%d\n", i, i + 1);
+      
             t=a[i+1];//j-1>=0 j>=1
           j=i+1;// j=4
           while (  j>=1 &&        a[j-1]>t)
